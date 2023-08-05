@@ -7,5 +7,10 @@ def greet():
   print("I am a function.")
   print("Isn't the weather nice today?")
 
-greet()
+#greet()
 
+def greet_name(name):
+  print(f"Hello {name}")
+  print(f"I am a function, {name}")
+
+greet_name("Jamie")
