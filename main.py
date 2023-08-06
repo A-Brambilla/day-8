@@ -13,4 +13,12 @@ def greet_name(name):
   print(f"Hello {name}")
   print(f"I am a function, {name}")
 
-greet_name("Jamie")
+#greet_name("Jamie")
+
+def sum(x, y):
+  return(x + y)
+
+num1 = int(input("first number: "))
+num2 = int(input("second number: "))
+
+print(sum(num1, num2))
