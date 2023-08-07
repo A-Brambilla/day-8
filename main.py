@@ -18,7 +18,12 @@ def greet_name(name):
 def sum(x, y):
   return(x + y)
 
-num1 = int(input("first number: "))
-num2 = int(input("second number: "))
+#num1 = int(input("first number: "))
+#num2 = int(input("second number: "))
+#print(sum(num1, num2))
 
-print(sum(num1, num2))
+def greet_with(name, location):
+  print(f"Hello {name}")
+  print(f"What is it like in {location}")
+
+greet_with("austin", "chadstone")
